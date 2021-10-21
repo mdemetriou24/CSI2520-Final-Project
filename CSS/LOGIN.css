@@ -2,7 +2,7 @@ body
 {  
     margin: 0;  
     padding: 0;  
-    background-color:#6abadeba;  
+    background-color: blue;  
     font-family: 'Arial';  
 }  
 .login{  
@@ -11,49 +11,59 @@ body
         margin: auto;  
         margin: 20 0 0 450px;  
         padding: 80px;  
-        background: #23463f;  
-        border-radius: 15px ;  
+        background: silver;  
+        border-radius: 16px ;  
           
 }  
 h2{  
     text-align: center;  
-    color: #277582;  
-    padding: 20px;  
+    color: silver;  
+    padding: 21px;  
 }  
 label{  
-    color: #08ffd1;  
-    font-size: 17px;  
+    color: #b108ff;  
+    font-size: 18px;  
 }  
 #Uname{  
     width: 300px;  
     height: 30px;  
     border: none;  
-    border-radius: 3px;  
-    padding-left: 8px;  
+    border-radius: 4px;  
+    padding-left: 9px;  
 }  
 #Pass{  
     width: 300px;  
     height: 30px;  
     border: none;  
-    border-radius: 3px;  
-    padding-left: 8px;  
+    border-radius: 4px;  
+    padding-left: 9px;  
       
 }  
 #log{  
     width: 300px;  
     height: 30px;  
     border: none;  
-    border-radius: 17px;  
-    padding-left: 7px;  
+    border-radius: 18px;  
+    padding-left: 8px;  
     color: blue;  
   
   
 }  
 span{  
-    color: white;  
-    font-size: 17px;  
+    color: rgb(250, 250, 250);  
+    font-size: 18px;  
 }  
-a{  
-    float: right;  
-    background-color: grey;  
-}
+
+
+#links
+{
+    text-align: center;
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 120px;  
+    padding: 18px;  
+    background: rgb(255, 255, 255);  
+    border-radius: 12px ; 
+    color: yellow;
+ }
