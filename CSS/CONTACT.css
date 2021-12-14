@@ -4,9 +4,10 @@ h1
 
 
 }
+
 .topnav {
   overflow: hidden;
-  background-color: teal;
+  background-color: #333;
 }
 
   .topnav a {
@@ -29,6 +30,7 @@ h1
       }
 
 
+
 h4{text-decoration: underline;}
   .m
 
@@ -41,7 +43,7 @@ h4{text-decoration: underline;}
     padding: 18px;  
     background: rgb(0, 0, 0);  
     border-radius: 12px ; 
-    color: goldenrod;
+    color: teal;
 }
   header {
     background-color:rgba(0, 0, 0, 0.863);
@@ -55,10 +57,92 @@ body {
   margin: 0;
   text-align: center;
 }
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color: white;  
+    font-family: 'Arial';  
+}  
+h2{  
+    text-align: center;  
+    color: silver;  
+    padding: 21px;  }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: center;
+  width: 25%;
+  margin-bottom: 15px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 teal;
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: teal;
+  color:rgb(255, 255, 255);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: teal;
+}
+div {text-align: center;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:teal;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 100px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+p {color: teal;}
 #links
 {text-align: center;
 background-color: teal;
 padding: 15px 0;}
+span{  
+    color: rgb(0, 250, 0);  
+    font-size: 18px;  
+}  
+
 /* Style the header */
 header {
     background-color: #666;
@@ -107,4 +191,3 @@ header {
     color: teal;
     
    }
-
